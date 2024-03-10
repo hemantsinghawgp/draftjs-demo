@@ -2,7 +2,7 @@
 
 This is a simple text editor built using Draft.js within ReactJS. It allows users to create and edit text with various formatting options such as headings, bold, italic, underline, and highlighted text.
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## Features
 
