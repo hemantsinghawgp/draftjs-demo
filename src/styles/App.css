@@ -1,0 +1,84 @@
+/* Reset default margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the main content */
+.MainContainer {
+  height: 100vh; /* Full height of the viewport */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Container for the navigation bar */
+.NavContainer {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  justify-content: space-between; /* Distribute space evenly between items */
+  padding: 15px;
+}
+
+/* Title text style */
+.TextTitle {
+  font-size: 2rem; /* Large font size */
+  font-weight: 600; /* Bold font weight */
+  font-family: Arial; /* Specify font family */
+}
+
+/* Styling for the button */
+.Button {
+  font-size: larger;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #000; /* Add border */
+
+  background-color: #fff; /* White background color */
+  color: #000; /* Black text color */
+  transition: all 0.3s; /* Add transition effect */
+  box-shadow:  4px 4px  rgba(0, 0, 0, 0.8); /* Add box-shadow for 3D effect */
+}
+
+/* Add hover effect */
+.Button:hover {
+  background-color: #000; /* Black background color on hover */
+  color: #fff; /* White text color on hover */
+  border-color: #fff; /* White border color on hover */
+  transform: translateY(-2px); /* Move button up slightly on hover for 3D effect */
+}
+
+/* Add active effect */
+.Button:active {
+  transform: translateY(2px); /* Move button down slightly when clicked */
+}
+
+/* Container for the text editor */
+.TextEditorContainer {
+  border: 2px solid lightskyblue; /* Border style */
+  padding: 15px; /* Padding around the text editor */
+  margin: 3rem; /* Margin around the text editor */
+  flex: 2; /* Take up remaining space */
+}
+
+/* Styling for bold text */
+.BoldBlock {
+  font-weight: bold; /* Apply bold font weight */
+}
+
+/* Styling for red text */
+.RedBlock {
+  color: red; /* Set text color to red */
+}
+
+/* Styling for underlined text */
+.UnderlineBlock {
+  text-decoration: underline; /* Add underline decoration */
+}
+/* Styling for highlighted text */
+.HighlightedBlock {
+  background-color: #ffff00; /* Yellow background color */
+  color: #000000; /* Black text color */
+}
